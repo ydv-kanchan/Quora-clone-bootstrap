@@ -1,0 +1,101 @@
+body{
+    background-color: #f1f1f1;
+  }
+.content{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.middle{
+    width: 45%;
+}
+.side-nav{
+    padding-right: 30px;
+    padding-top: 50px;
+    position: fixed;
+    top: 5%;
+    left: 20%;
+}
+.middle{
+    justify-content: center;
+}
+.list-of-4{
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul img{
+    height: 20px;
+    cursor: pointer;
+}
+
+ul li{
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar {
+    justify-content: center;
+    background-color: #ffffff;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+.navbar-search {
+    border: 2px solid #ccc;
+    padding: 1px 5px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.navbar-search input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+.navbar-button {
+    border-radius: 20px; 
+    background-color: #ffffff;
+    color: #656565;
+}
+.add-question-button {
+    background-color: #ac0404; 
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 40px;
+}
+input[type="text"] {
+    border-radius: 20px;
+}
+
+.three-buttons {
+    display: flex;
+    margin-left: 15%;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.three-buttons .button1,
+.three-buttons .button2,
+.three-buttons .button3 {
+    display: flex;
+    flex-grow: 1;
+}
+
+.three-buttons p{
+    padding-left: 5px;
+}
+
+.another-list{
+    font-size: small;
+    list-style-type: none;
+    padding: 0;
+}
+.card-body {
+    padding: 10px;
+}
